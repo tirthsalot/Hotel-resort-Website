@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #000000;
+  color: #ffffff;
+}
+.carousel-img {
+  height: 95vh;
+  object-fit: cover;
+}
+.about-img {
+  height: 70vh;
+  object-fit: cover;
+  transition: transform 1.1s ease;
+  border-radius: 10px;
+}
+
+.about-img:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(218, 200, 43, 0.945) 0px 4px 20px;
+}
+.card-body {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+.spa-img {
+  height: 10vh;
+  width: 25vw;
+
+  object-fit: cover;
+  transition: transform 1.1s ease;
+  border-radius: 10px;
+}
+.spa-img:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(218, 200, 43, 0.945) 0px 4px 20px;
+}
+
+
+
+.rooms{
+      transition: transform 1.1s ease;
+      border-radius: 10px;
+      
+}
+
+.card{
+  transition: all 1s;
+}
+.card:hover{
+   transform: scale(1.1);
+   box-shadow: rgba(218, 200, 43, 0.945) 4px 10px 20px;
+
+}
+.theatre{
+    height: 29vh;
+}
+.party{
+    height: 29vh;
+  
+}
+.events {
+  transition: transform 1.1s ease, box-shadow 1.1s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+/* From Uiverse.io by niat786 */ 
+.book-now {
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg,#1c1c1c,#d49203);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+.book-now:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.btn-discover{
+  
+  text-decoration: none;
+  text-align: center;
+ padding-top: 11px;
+
+}
+.txt-service{
+  font-weight: 200px;
+  font-size: 1.5rem;
+}
+
+
+
+
+

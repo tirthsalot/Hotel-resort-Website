@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hotel-Resort</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container-fluid">
+      <img src="./asset/logo1..png" height="80" alt="Logo" />
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hotelNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="hotelNavbar">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#Rooms & suites" data-bs-toggle="dropdown">
+              Rooms & Suites
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item">Deluxe Room</a></li>
+              <li><a class="dropdown-item">Executive Suite</a></li>
+              <li><a class="dropdown-item">Royal Suite</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              Dining
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item">Fine Dining</a></li>
+              <li><a class="dropdown-item">Lounge & Bar</a></li>
+              <li><a class="dropdown-item">Private Dining</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link">Spa & Wellness</a></li>
+          <li class="nav-item"><a class="nav-link">Events</a></li>
+        </ul>
+
+        <!-- From Uiverse.io by niat786 -->
+        <button class="book-now">
+          Book Now
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade mt-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./asset/goa1.jpg" class="d-block w-100 carousel-img" alt="" />
+        <div class="carousel-caption">
+          <h5>Where Moonlight Meets the Ocean</h5>
+          <p>Unforgettable beachfront nights in timeless elegance.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./asset/ct2.jpg" class="d-block w-100 carousel-img" alt="" />
+        <div class="carousel-caption">
+          <h5>Where mountains touch the sea beneath a pink sky</h5>
+          <p>A peaceful escape wrapped in nature and quiet luxury.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./asset/crousel 1.avif" class="d-block w-100 carousel-img" alt="" />
+        <div class="carousel-caption">
+          <h5>Wake to sunrise over the mountains</h5>
+          <p>Private villas, fresh air, and luxury at dawn.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section class="py-5 bg-black text-light" id="about">
+    <div class="container">
+      <h3 class="text-center mb-5 text-warning">About</h3>
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="./asset/about us.png" class="img-fluid about-img" alt="Luxury Hotel Resort" />
+        </div>
+
+        <div class="col-lg-6">
+          <!-- <h6 class="text-warning text-uppercase fw-semibold mb-2">
+              About Us
+            </h6> -->
+
+          <h2 class="fw-bold mb-3">
+            A Destination of Elegance, Comfort, and Tranquility
+          </h2>
+
+          <p class="text-secondary mb-4">
+            Nestled between pristine beaches and breathtaking mountain
+            landscapes, Imperial Hotel & Resort is a sanctuary designed for
+            those who appreciate refined luxury and peaceful escapes. Our
+            resort seamlessly blends modern sophistication with the natural
+            beauty of its surroundings, offering guests an experience that is
+            both indulgent and deeply relaxing.<br /><br />From sunrise over
+            private mountain villas to moonlit evenings by the sea, every
+            detail is thoughtfully curated to deliver comfort, privacy, and
+            timeless elegance. Whether you are seeking a romantic getaway, a
+            rejuvenating retreat, or an unforgettable holiday, Imperial Hotel
+            & Resort promises moments that stay with you long after your stay.
+          </p>
+
+          <h2 class="fw-bold mb-3">🌿 Our Philosophy</h2>
+
+          <p class="text-secondary mb-4">
+            At Imperial, luxury is not defined by excess—but by experience. We
+            believe true luxury lies in personalized service, serene spaces,
+            and meaningful moments. Our team is dedicated to anticipating your
+            needs and creating an atmosphere where every guest feels valued,
+            relaxed, and inspired.
+          </p>
+
+          <div class="row mb-4">
+            <div class="col-6 mb-2">✔ Private Beach Access</div>
+            <div class="col-6 mb-2">✔ Mountain View Villas</div>
+            <div class="col-6 mb-2">✔ Fine Dining Experiences</div>
+            <div class="col-6 mb-2">✔ Luxury Spa & Wellness</div>
+          </div>
+
+          <div class="d-flex gap-3 ">
+            <a href="#" class="book-now btn-discover fw-semibold">
+              Discover More
+            </a>
+            <a href="#" class="btn btn-outline-light"> Watch Our Story </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-black text-light" id="rooms">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h3 class="text-warning text-uppercase fw-semibold">
+          Rooms & Suites
+        </h3>
+        <h2 class="fw-bold">Luxury Crafted for Every Stay</h2>
+        <p class="text-secondary mt-2">
+          Choose from elegant rooms to royal suites, designed for comfort and
+          class.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="card bg-black text-light h-100  rooms">
+            <img src="./asset/deluxe1.avif" class="card-img-top " alt="Deluxe Room" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Deluxe Room</h5>
+              <p class="text-secondary">
+                A cozy blend of modern comfort and elegant design.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ King / Queen Bed</li>
+                <li>✔ Garden or City View</li>
+                <li>✔ Premium Amenities</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card bg-black text-light h-100 rooms">
+            <img src="./asset/exe2.avif" class="card-img-top" alt="Executive Room" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Executive Room</h5>
+              <p class="text-secondary">
+                Spacious luxury with refined interiors and scenic views.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ King-size Bed</li>
+                <li>✔ Private Balcony</li>
+                <li>✔ Work & Lounge Area</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="card bg-black text-light h-100   rooms">
+            <img src="./asset/room3.jpg" class="card-img-top" alt="Royal Suite" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Royal Suite</h5>
+              <p class="text-secondary">
+                The pinnacle of elegance with royal comfort.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Separate Living Area</li>
+                <li>✔ Panoramic Views</li>
+                <li>✔ Luxury Bathroom & Tub</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+  </section>
+
+  <section class="py-5 bg-black text-light" id="dining">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h3 class="text-warning text-uppercase fw-semibold">Dining</h3>
+        <h2 class="fw-bold">A Culinary Journey of Taste & Elegance</h2>
+        <p class="text-secondary mt-2">
+          From fine dining to private experiences, indulge in flavors crafted
+          to perfection.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="card bg-dark text-light h-100 dining-card  rooms">
+            <img src="./asset/dining1.jpg" class="card-img-top" alt="Fine Dining" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Fine Dining</h5>
+              <p class="text-secondary">
+                Experience gourmet cuisine curated by world-class chefs in an
+                elegant setting.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Multi-Cuisine Menu</li>
+                <li>✔ Candle Light Ambience</li>
+                <li>✔ Premium Service</li>
+              </ul>
+            </div>
+
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Explore Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card bg-dark text-light h-100 dining-card  rooms">
+            <img src="./asset/dining2.jpg" class="card-img-top" alt="Lounge & Bar" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Lounge & Bar</h5>
+              <p class="text-secondary">
+                Unwind with handcrafted cocktails, fine wines, and relaxing
+                music.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Signature Cocktails</li>
+                <li>✔ Live Music Nights</li>
+                <li>✔ Luxury Lounge Seating</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">View Bar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="card bg-dark text-light h-100 dining-card  rooms">
+            <img src="./asset/private.jpg" class="card-img-top" alt="Private Dining" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Private Dining</h5>
+              <p class="text-secondary">
+                Exclusive dining experiences tailored for special moments and
+                celebrations.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Personalized Menu</li>
+                <li>✔ Private Chef Service</li>
+                <li>✔ Elegant Decor Setup</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5 mt-3">
+        <div class="col-lg-4 col-md-6">
+          <div class="card bg-dark text-light h-100 dining-card  rooms">
+            <img src="./asset/diner1.jpg" class="card-img-top" alt="Fine Dining" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Fine Dining</h5>
+              <p class="text-secondary">
+                Experience gourmet cuisine curated by world-class chefs in an
+                elegant setting.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Multi-Cuisine Menu</li>
+                <li>✔ Candle Light Ambience</li>
+                <li>✔ Premium Service</li>
+              </ul>
+            </div>
+
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Explore Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card bg-dark text-light h-100 dining-card  rooms">
+            <img src="./asset/daru.avif" class="card-img-top" alt="Lounge & Bar" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Lounge & Bar</h5>
+              <p class="text-secondary">
+                Unwind with handcrafted cocktails, fine wines, and relaxing
+                music.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Signature Cocktails</li>
+                <li>✔ Live Music Nights</li>
+                <li>✔ Luxury Lounge Seating</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">View Bar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="card bg-dark text-light h-100 dining-card  rooms">
+            <img src="./asset/couple.jpg" class="card-img-top" alt="Private Dining" />
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Private Dining</h5>
+              <p class="text-secondary">
+                Exclusive dining experiences tailored for special moments and
+                celebrations.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Personalized Menu</li>
+                <li>✔ Private Chef Service</li>
+                <li>✔ Elegant Decor Setup</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a class="btn btn-outline-warning w-100">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-black text-light" id="spa">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h3 class="text-warning text-uppercase fw-semibold">
+          Spa & Wellness
+        </h3>
+        <h2 class="fw-bold">A Sanctuary for Mind, Body & Soul</h2>
+        <p class="text-secondary mt-2">
+          Indulge in calming rituals designed to restore balance, energy, and
+          inner peace.
+        </p>
+      </div>
+
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="./asset/spa2.jpg" class="img-fluid spa-img" alt="Luxury Spa & Wellness" />
+        </div>
+
+        <div class="col-lg-6">
+          <h3 class="fw-bold mb-3">Experience Timeless Relaxation</h3>
+          <p class="text-secondary mb-4">
+            Our Spa & Wellness center is a peaceful escape inspired by nature
+            and serenity. Every treatment is crafted to rejuvenate your body,
+            calm your mind, and uplift your spirit in a tranquil environment.
+          </p>
+
+
+
+          <div class="row mb-4">
+            <div class="col-6 mb-2">✔ Luxury Spa Therapies</div>
+            <div class="col-6 mb-2">✔ Herbal & Natural Treatments</div>
+            <div class="col-6 mb-2">✔ Steam & Sauna</div>
+            <div class="col-6 mb-2">✔ Infinity Relaxation Pool</div>
+            <div class="col-6 mb-2">✔ Private Spa Suites</div>
+            <div class="col-6 mb-2">✔ Expert Therapists</div>
+          </div>
+
+          <div class="d-flex gap-3">
+            <a href="#" class="book-now btn-discover fw-semibold">
+              Book Spa Session
+            </a>
+            <a href="#" class="btn btn-outline-light"> View Treatments </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 g-5">
+        <div class="col-md-4 rooms">
+          <div class="card bg-dark text-light h-100 ">
+            <div class="card-body text-center">
+              <h5 class="fw-bold text-warning">Signature Massages</h5>
+              <p class="text-secondary small">
+                Relaxing therapies using aromatic oils and expert techniques.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 rooms">
+          <div class="card bg-dark text-light h-100 ">
+            <div class="card-body text-center">
+              <h5 class="fw-bold text-warning">Steam & Sauna</h5>
+              <p class="text-secondary small">
+                Detoxify your body and refresh your senses in calming warmth.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 rooms">
+          <div class="card bg-dark text-light h-100 ">
+            <div class="card-body text-center">
+              <h5 class="fw-bold text-warning">Wellness Rituals</h5>
+              <p class="text-secondary small">
+                Holistic experiences inspired by ancient healing traditions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-black text-light" id="events">
+    <div class="container">
+
+      <div class="text-center mb-5">
+        <h3 class="text-warning text-uppercase fw-semibold">
+          Events & Experiences
+        </h3>
+        <h2 class="fw-bold">Celebrate, Perform & Inspire</h2>
+        <p class="text-secondary mt-2">
+          From grand weddings to live theatre performances, every event becomes unforgettable.
+        </p>
+      </div>
+
+      <div class="row g-5">
+
+        <div class="col-lg-4 col-md-6 rooms">
+          <div class="card h-100 bg-dark text-light border-0 ">
+            <img src="./asset/event1.webp" class="card-img-top event-img" alt="Wedding Events">
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Weddings & Receptions</h5>
+              <p class="text-secondary">
+                A breathtaking venue for your once-in-a-lifetime celebration.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Grand décor & themes</li>
+                <li>✔ Luxury catering</li>
+                <li>✔ Bridal & guest suites</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 rooms">
+          <div class="card h-100 bg-dark text-light border-0 ">
+            <img src="./asset/meeting.jpg" class="card-img-top event-img" alt="Corporate Events">
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Corporate Meetings</h5>
+              <p class="text-secondary">
+                Professional spaces designed for productivity and success.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Conference halls</li>
+                <li>✔ Audio-visual setup</li>
+                <li>✔ Business dining</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 rooms">
+          <div class="card h-100 bg-dark text-light ">
+            <img src="./asset/theatre1.jpg" class="card-img-top theatre" alt="Theatre Shows">
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Theatre Shows & Performances</h5>
+              <p class="text-secondary">
+                Experience live drama, music, and cultural performances.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Professional stage</li>
+                <li>✔ Acoustic sound system</li>
+                <li>✔ Luxury seating</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 rooms">
+          <div class="card h-100 bg-dark text-light border-0 ">
+            <img src="./asset/event4.jpg" class="card-img-top event-img" alt="Private Parties">
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Private Celebrations</h5>
+              <p class="text-secondary">
+                Intimate gatherings crafted with personalized elegance.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Birthdays & anniversaries</li>
+                <li>✔ Custom décor</li>
+                <li>✔ Private lounges</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 rooms">
+          <div class="card h-100 bg-dark text-light border-0 ">
+            <img src="./asset/event5.jpg" class="card-img-top party" alt="Cocktail Parties">
+            <div class="card-body">
+              <h5 class="fw-bold text-warning">Cocktail Parties & Theme Nights</h5>
+              <p class="text-secondary">
+                Stylish evenings with music, drinks, and unforgettable vibes.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ DJ & live music</li>
+                <li>✔ Signature cocktails</li>
+                <li>✔ Poolside & lounge setup</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 rooms">
+          <div class="card h-100 bg-dark text-light ">
+            <img src="./asset/event6.jpg" class="card-img-top event-img" alt="Movie Screening">
+            <div class="card-body">
+              <h5 class="fw-bold text-warning ">Private Movie Screenings</h5>
+              <p class="text-secondary">
+                Enjoy exclusive cinematic experiences in our in-house theatre.
+              </p>
+              <ul class="list-unstyled small text-secondary">
+                <li>✔ Large screen</li>
+                <li>✔ Surround sound</li>
+                <li>✔ VIP seating</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="py-5 bg-black">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h3 class="fw-bold text-warning">Our Premium Services</h3>
+      <h3 class="fw-bold txt-service text-white">Experience luxury, comfort, and world-class hospitality</h3>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center border-0 bg-dark">
+          <div class="card-body">
+            <div class="mb-3 text-warning fs-1">
+              <i class="bi bi-building"></i>
+            </div>
+            <h5 class="card-title fw-semibold text-warning">Luxury Rooms</h5>
+            <p class="card-text text-secondary">
+              Elegant rooms with modern interiors, scenic views, and premium comfort.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center bg-dark ">
+          <div class="card-body">
+            <div class="mb-3 text-warning fs-1">
+              <i class="bi bi-cup-hot"></i>
+            </div>
+            <h5 class="card-title fw-semibold text-warning">Fine Dining</h5>
+            <p class="card-text text-secondary">
+              Enjoy gourmet cuisine prepared by top chefs using fresh ingredients.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center border-0 bg-dark">
+          <div class="card-body">
+            <div class="mb-3 text-warning fs-1">
+              <i class="bi bi-water"></i>
+            </div>
+            <h5 class="card-title fw-semibold text-warning">Spa & Wellness</h5>
+            <p class="card-text text-secondary">
+              Relax with luxury spa treatments, massages, and wellness therapies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center border-0 bg-dark">
+          <div class="card-body">
+            <div class="mb-3 text-warning fs-1">
+              <i class="bi bi-car-front"></i>
+            </div>
+            <h5 class="card-title fw-semibold text-warning">24/7 Concierge</h5>
+            <p class="card-text text-secondary">
+              Personalized service, airport transfers, tours, and guest assistance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black text-light pt-5">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6">
+        <h5 class="fw-bold text-warning mb-3">THE GRAND OASIS HOTEL & RESORT</h5>
+        <p class="text-secondary">
+          Experience world-class luxury, comfort, and unforgettable hospitality
+          at our premium hotel & resort destination.
+        </p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-6">
+        <h5 class="text-warning mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+          <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">About Us</a></li>
+          <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Rooms</a></li>
+          <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Services</a></li>
+          <li><a href="#" class="text-secondary text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="text-warning mb-3">Our Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="bi bi-check-circle text-warning me-2"></i>Luxury Rooms</li>
+          <li class="mb-2"><i class="bi bi-check-circle text-warning me-2"></i>Fine Dining</li>
+          <li class="mb-2"><i class="bi bi-check-circle text-warning me-2"></i>Spa & Wellness</li>
+          <li class="mb-2"><i class="bi bi-check-circle text-warning me-2"></i>Private Events</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="text-warning mb-3">Contact Us</h5>
+        <p class="text-secondary mb-2">
+          <i class="bi bi-geo-alt text-warning me-2"></i>
+          Beach Road, Luxury Bay, India
+        </p>
+        <p class="text-secondary mb-2">
+          <i class="bi bi-telephone text-warning me-2"></i>
+          +91 98765 43210
+        </p>
+        <p class="text-secondary">
+          <i class="bi bi-envelope text-warning me-2"></i>
+          info@royalstayresort.com
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary my-4">
+
+
+        <a href="#" class="text-secondary text-decoration-none me-3">Privacy Policy</a>
+        <a href="#" class="text-secondary text-decoration-none">Terms & Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
